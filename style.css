@@ -1,0 +1,65 @@
+
+body{    
+  background-image: url("assets/bg.png");
+  max-width: absolute
+}
+.myTitle{
+  background-image: url("assets/title.png");
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 400px;
+  height: auto;
+  }
+
+
+.myTicker{
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.myTicker ul{
+  padding: 0;
+  
+}
+.myTicker li {
+  list-style: none;
+  background-image: url("assets/post_bg.png");
+  padding: 10px;
+  display: inline-block;
+}
+.myTicker li img{
+  border: 1px solid rgb(238, 8, 8);
+  border-radius: 5px;
+  display: inline;
+  position: static;
+  width: 40px;
+  height: 40px;
+  float: right;
+  
+}
+.myTicker li h4{
+  color: rgb(236, 223, 223);
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  position: static;
+}
+
+.myTicker li h6{
+  color: rgb(219, 9, 9);
+  display: inline;
+  position: absolute;
+  right: 56px;
+}
+
+.myTicker li p{
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  padding-left: 2px;
+  color: rgb(236, 223, 223);
+  line-height: 90%;
+
+}
